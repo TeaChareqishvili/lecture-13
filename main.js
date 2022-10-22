@@ -22,10 +22,13 @@ const text3 = "I was born in " + myBirthYear + " " + date + " of " + month;
 const text4 = "my hobby is " + myHobby + ".";
 
 
-
-
-
 console.log(text1, text2,text3, text4,);
+
+
+const newText1 = `${text1} and ${text2}`;
+
+console.log( newText1);
+
 
 
 
